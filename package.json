@@ -1,0 +1,21 @@
+{
+  "name": "gmail-imap-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-imap": "^0.9.6",
+    "nodemailer": "^6.9.15",
+    "playwright": "^1.47.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.2"
+  }
+}
